@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/createFragment"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Create"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/scanFragment"
+        android:icon="@drawable/ic_scanner_black_24dp"
+        android:title="Scan"
+        app:showAsAction="ifRoom" />
+</menu>
